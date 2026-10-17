@@ -56,6 +56,16 @@ Upload any technical PDF (user manuals, engineering specifications, maintenance 
 3. Ask questions in plain English
 4. Open **View Retrieval Context** to see the text and images used
 
+### Screenshots
+
+**Answer read from a connector pinout image**
+
+![Answer from a connector pinout image](docs/demo.png)
+
+**Answer read from a scanned page with no text layer**
+
+![Answer from a scanned maintenance table](docs/demo-scanned.png)
+
 ---
 
 ## How It Works (Multimodal RAG Architecture)
@@ -244,6 +254,7 @@ ai-powered-multimodal-technical-documentation-assistant/
 │   ├── Sidebar Controls & Main Dashboard
 │   ├── ETL Pipeline (document ingestion)
 │   └── Inference Engine (chat + evidence display)
+├── docs/                  # Demo screenshots
 ├── tests/
 │   ├── conftest.py        # OpenAI mocks + generated sample PDF
 │   └── test_app.py        # Pipeline and UI tests
@@ -400,4 +411,3 @@ Student, Technische Hochschule Deggendorf
 
 ---
 
-**If you find this project useful, consider starring the repository!**
