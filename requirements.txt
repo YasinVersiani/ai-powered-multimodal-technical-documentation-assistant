@@ -1,0 +1,21 @@
+streamlit>=1.40
+python-dotenv
+openai
+tiktoken
+
+# LangChain (tested versions)
+langchain==0.2.16
+langchain-community==0.2.17
+langchain-openai==0.1.25
+langchain-text-splitters==0.2.4
+
+# Vector store + PDF processing
+chromadb
+pypdf
+pymupdf>=1.24
+
+# Newer SQLite for ChromaDB on Streamlit Cloud (Linux only)
+pysqlite3-binary; sys_platform == "linux"
+
+# Tests
+pytest

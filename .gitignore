@@ -1,0 +1,20 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated at runtime
+temp_manual.pdf
+extracted_images/
+image_cache/
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
